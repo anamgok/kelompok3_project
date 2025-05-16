@@ -1,6 +1,6 @@
 :root {
-  --primary: #b92424;
-  --bg: #030000;
+  --primary: #685d2a;
+  --bg: #000000;
 }
 
 * {
@@ -16,7 +16,6 @@ body {
   font-family: "poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 6000px;
 }
 /* Navbar */
 .navbar {
@@ -82,62 +81,8 @@ body {
 .navbar .navbar-extra a:hover {
   color: var(--primary);
 }
-.navbar .navbar-troli {
-  position: absolute;
-  top: 100%;
-  left: -100%;
-  background-color: #ffffff;
-  width: 65rem;
-  height: 100vh;
-  transition: 0.3s;
-}
-.navbar .navbar-troli a {
-  color: var(--primary);
-  display: block;
-  margin: 1.5rem;
-  padding: 0.5rem;
-  font-size: 2rem;
-}
-.navbar .navbar-troli.active {
-  left: 0;
-}
 #hamburger-menu {
   display: none;
-}
-#shopping-cart {
-}
-
-/* Hero Section */
-.hero {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  background-image: url("k\ 3/bcgr.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-.hero::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    0deg,
-    rgba(1, 1, 3, 1) 0%,
-    rgba(255, 255, 255, 0) 25%
-  );
-}
-.hero .content {
-  padding: 1.4rem 7%;
-  max-width: 60rem;
-}
-
-.hero .content h1 {
-  font-size: 4em;
-  color: #21243b;
 }
 
 /*Media Queries */
@@ -159,7 +104,7 @@ body {
   position: absolute;
   top: 100%;
   right: -100%;
-  background-color: #ffffff;
+  background-color: #fff;
   width: 30rem;
   height: 100vh;
   transition: 0.3s;
